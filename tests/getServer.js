@@ -7,8 +7,9 @@ serverPromise = (async () => {
     dbPrefix: 'test.db'
   })
   await server.initialize()
+  const apiServer = new ReactiveDao.ReactiveServer((sessionId) => server.createDao(sessionId))
   server.connect = (sessionId, delay = 50) => new Promise((resolve, reject) => {
-    const client = new ReactiveDao.LoopbackConnection(sessionId, server.apiServer, {
+    const client = new ReactiveDao.LoopbackConnection(sessionId, apiServer, {
       onConnect: () => resolve(client),
       delay
     })
