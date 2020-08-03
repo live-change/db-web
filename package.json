@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "@live-change/dao": "^0.2.11",
-    "@live-change/db": "^0.3.18",
+    "@live-change/db": "^0.3.19",
     "@live-change/db-store-level": "^0.1.12",
     "debug": "^4.1.1",
     "encoding-down": "^6.3.0",
