@@ -30,7 +30,7 @@
     "tape": "^5.0.1"
   },
   "dependencies": {
-    "@live-change/dao": "^0.2.11",
+    "@live-change/dao": "^0.2.14",
     "@live-change/db": "^0.3.19",
     "@live-change/db-store-level": "^0.1.13",
     "debug": "^4.1.1",
