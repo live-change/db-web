@@ -27,13 +27,12 @@
   "main": "index.js",
   "optionalDependencies": {},
   "devDependencies": {
-    "tape": "^5.0.1"
+    "tape": "^5.2.2"
   },
   "dependencies": {
     "@live-change/dao": "^0.2.16",
-    "@live-change/db": "^0.3.54",
-    "@live-change/db-store-level": "^0.1.13",
+    "@live-change/db": "^0.3.62",
     "@live-change/db-store-rbtree": "^0.1.1",
-    "debug": "^4.1.1"
+    "debug": "^4.3.1"
   }
 }
